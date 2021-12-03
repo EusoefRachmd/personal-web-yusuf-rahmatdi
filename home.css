@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    padding: 8px 10%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(231, 231, 231);
+    height: 7vh;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    transition: 500ms ease;
+}
+
+.nav a:hover {
+    color: rgb(236, 72, 12);
+}
+
+.nav .button {
+    padding: 12px 18px;
+    background-color: rgb(236, 72, 12);
+    color: white;
+    border-radius: 10px;
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar img {
+    padding-right: 72px;
+    width: 100%;
+}
+
+.navbar a {
+    padding : 0 25px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    padding: 24px 10%;
+    height: 93vh;
+    width: 100%;
+}
+
+.profile {
+    padding: 12px;
+    border: 1px solid rgb(184, 184, 184);
+    width: 300px;
+    border-radius: 15px;
+    box-shadow:0px 0px 25px rgb(184, 184, 184);
+    /* background-color: #17a589; */
+}
+
+.profile img {
+    border-radius: 15px;
+}
+
+.profile .name {
+    padding: 15px 0;
+}
+
+.profile .bio {
+    padding-bottom: 15px;
+}
+
+.profile table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: white;
+}
+
+.profile tr, td, th {
+    border: 1px solid black;
+    padding: 4px 8px;
+    text-align: center;
+}
+
+.profile th {
+    background-color: #28b463;
+}
+
+.experience {
+    display: flex;
+    flex-direction: row;
+}
+
+.experience-item {
+    padding-right: 18px;
+}
+
+/* tadi diedit */
+.todo {
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title-todo {
+    font-size: 24px;
+    padding-bottom: 12px;
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+}
+/* tadi diedit */
+
+.desc-todo {
+    padding-bottom: 24px;
+}
+
+.title-experience {
+    padding: 12px 0;
+    font-size: 18px;
+    font-family: 'Lobster', cursive;
+}
+
+.desc-experience {
+    text-align: justify;
+}
+
+.social-media {
+    margin-top: 24px;
+    width: 100%;
+}
+
+.contact-form {
+    height: 93vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
